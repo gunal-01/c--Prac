@@ -1,4 +1,5 @@
-#remove-these-extensions
+# Ignore all .exe files
+*.exe
 
-.exe
-.txt
+# Ignore all .txt files
+*.txt
