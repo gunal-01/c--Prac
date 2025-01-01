@@ -17,5 +17,5 @@ struct Node {
 int main() {
     vector<int> arr = {2,5,8,7};
     Node* y = new Node(arr[0], nullptr);
-    cout << y; //output - 0x15f0b736580 (memory address)
+    cout << y->data;
 }

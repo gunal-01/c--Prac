@@ -3,3 +3,7 @@
 
 # Ignore all .txt files
 *.txt
+
+# Ignore .vscode
+
+*.vscode
