@@ -24,3 +24,6 @@ int main() {
     string s = "011101";
     maxScore(s);
 }
+
+
+//leetcode Daily challenge
