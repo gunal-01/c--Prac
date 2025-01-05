@@ -29,7 +29,7 @@ class solution {
 
             return s.substr(start).find(suf) != string::npos;
         }
-};
+};          
 
 
 int main() {
