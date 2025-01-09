@@ -5,3 +5,6 @@ public:
         return nums.size();
     }
 };
+
+
+//Learned one new inbuilt function to remove element in c++
