@@ -232,6 +232,23 @@ int main() {
 }
 */
 
+/*
+int main() {
+  //String Concatenation
+
+  string s1 = "123";
+  string s2 = "456";
+
+  s1.append(s2);
+
+  cout << s1;
+  
+  return 0;
+}
+
+*/
+
+
 
 
 
