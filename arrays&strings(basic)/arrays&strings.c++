@@ -161,7 +161,7 @@ output: [1,2,3,4,5,6]
 
 
 
-void twoSortedArr(vector<int>& arr, vector<int>& arr1) {
+/*void twoSortedArr(vector<int>& arr, vector<int>& arr1) {
     for(int i : arr1) {
       arr.push_back(i);
     }
@@ -178,17 +178,59 @@ int main() {
   vector<int> arr1 = {2,4,6};
   twoSortedArr(arr, arr1);
   return 0;
+}*/
+
+
+
+/*int main(){
+  int num = 109;
+  
+  string s1 = to_string(num);
+  
+  string result;
+  
+  for(char c : s1) {
+    result += char(c - '0' + 'A');
+  }
+  cout << result;
+  return 0;
 }
+*/
 
 
 
+/*int main() {
+    int num = 109; // Example number
+    char ascii_char = static_cast<char>(num); // Convert the number to the corresponding ASCII character
+    cout << "The ASCII character for " << num << " is: " << ascii_char << endl;
+    return 0;
+}*/
 
 
 
+/*int main() {
+    char ch = 'm'; // Example character
+    int ascii_value = static_cast<int>(ch); // Convert the character to its ASCII value
+    cout << "The ASCII value for '" << ch << "' is: " << ascii_value << endl;
+    return 0;
+}*/
 
 
-
-
+/*int main() {
+  string s = "56523421";
+  // sort the given string
+  
+  vector<char> vec(s.begin(), s.end());
+  
+  sort(vec.begin(), vec.end());
+  
+  string sorted_str(vec.begin(), vec.end());
+  
+  cout << "Sorted string: " << sorted_str << endl;
+  
+  return 0;
+}
+*/
 
 
 
